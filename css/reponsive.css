@@ -1,0 +1,116 @@
+/******* large devices only *******/
+@media (min-width: 1200px) {
+    /* main */
+    
+}
+/******* Medium devices only *******/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* header */
+    #logo-img {
+        background: url(../img/Team_Flash_logo.png) no-repeat;
+        background-size: contain;
+        width:  100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    /* end header */
+        /* start main */
+    /*******Jumbotron*********/
+    
+}
+
+/******* Small devices only *******/
+@media (min-width: 768px) and (max-width:991px) {
+    /* header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    
+    .navbar-brand p {
+        font-size: 10px.6em;
+        margin-top: 12px;
+    }
+
+    .navbar-brand p img {
+        height: 20px;
+    }
+    /* end header */
+    /* start main */
+    /*******Jumbotron*********/
+    
+}
+
+/******* large devices only *******/
+@media (max-width: 767px){
+    /* header */
+    #nav-list a {
+        font-size: 1.2em;
+        padding: 8px 0;
+    }
+
+    #nav-list a i {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size:6vw;
+    }
+    /* end header */
+    /* HOME PAGE --------------------------------*/
+    #menu-tile, #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+    /* END HOME PAGE --------------------------------*/
+    /* FOOTER --------------------------------------*/
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    .panel-footer section hr {
+        width: 50%;
+        border-top: 1px solid rgb(255 255 255 / 31%);
+    }
+    /* END FOOTER --------------------------------------*/
+
+    .menu-item-photo {
+        margin: auto;
+    }
+
+    .menu-item-tile .menu-item-price {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .menu-item-description {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 479px) {
+    /* HEADER */
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size:6vw;
+    }
+    /* END HEADER */
+    /* HOME PAGE --------------------------------*/
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+}

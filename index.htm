@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid align-items-lg-start align-items-xl-start">
+                <div class="navbar-header">
+                    <a href="index.htm" class="float-left d-none d-lg-block">
+                        <div id="logo-img"></div>
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="index.htm"><h1>PHỞ TIẾN XUÂN</h1></a>
+                        <p>
+                            <img src="./img/Star_icon_stylized.svg.png" alt="" class="star-img">
+                            <span>Kosher Certified</span>
+                        </p>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul id="nav-list" class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-home"></i><br class="d-sm-none d-md-block">Home
+                            </a> 
+                        </li>
+                        <li class="nav-item">
+                            <a href="menu-categories.htm" class="nav-link">
+                                <i class="fas fa-utensils"></i><br class="d-sm-none d-md-block">Menu
+                            </a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-info-circle"></i><br class="d-sm-none d-md-block">About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-certificate"></i><br class="d-sm-none d-md-block">Awards
+                            </a>
+                        </li>
+                        <li class="nav-item d-none d-md-block" id="phone">
+                            <a href="tel:0926879351" class="nav-link">
+                                <span>092-6879-351</span>
+                            </a>   
+                            <div>* We Deliver</div>                     
+                        </li>
+                    </ul> <!--#nav-list-->
+                </div> <!-- .collapse .navbar-collapse -->
+            </div> <!-- .container -->
+        </nav> <!--#header-nav -->   
+    </header>
+    
+    <div class="container-fluid" id="main-container">
+        <!-- start call-btn -->
+        <div id="call-btn" class="d-md-none">
+            <a href="tel:0926879351" class="btn btn-block">
+                <i class="fas fa-phone-alt"></i>
+                092-6879-351
+            </a>
+        </div><!-- end call-btn -->
+        <div id="xs-deliver" class="text-center d-md-none">* We Deliver</div>
+        <!-- start jumbotron -->
+        <div class="jumbotron">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                    
+                    <!-- The slideshow -->
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/jumbotron-1.jpg" alt="img of restaurant" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/jumbotron-2.jpg" alt="img of restaurant" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/jumbotron-3.jpg" alt="img of restaurant" class="img-fluid">
+                </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div> <!--jumbotron -->
+        <!-- start-home tiles -->
+        <div id="home-tiles" class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="menu-categories.htm">
+                    <div id="menu-tile">
+                        <span>menu</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="# ">
+                    <div id="specials-tile">
+                        <span>special</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <a href="https://goo.gl/maps/Gx8a86m36FJta79j9" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m12!1m3!1d112591.62073280083!2d105.8800043228272!3d20.69727022661076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!3e0!4m0!4m1!2zRFQgNDI4LCBUcuG7iyBUaHXhu7csIFBow7ogWHV5w6puLCBIw6AgTuG7mWk!5e1!3m2!1svi!2s!4v1624620632589!5m2!1svi!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <span>map</span>
+                    </div>
+                </a>
+            </div>
+        </div> <!-- END OF HOME TILES -->
+    </div><!-- END OF CONTENT -->
+    <footer class="panel-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <section id="hours" class="col-md-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm<br>
+                    Fir: 11:15am - 2:30pm<br>
+                    Saturday Closed
+                    <hr class="d-md-none">
+                </section>
+                <section id="address" class="col-md-4">
+                    <span>Addresses:</span><br>
+                    7105 Reisterown Road<br>
+                    Baltimore, MD 21215
+                    <p>* delivery area within 3-4 miles, with minimum order of $20 plus $3 charge foe alll deliveries.</p>
+                    <hr class="d-md-none">
+                </section>
+                <section id="testimonials" class="col-md-4">
+                    <p><i>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</i></p>
+                    <p><i>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again."</i></p>
+                </section>
+            </div>
+            <div class="text-center">&copy; Copyright Nhà hàng phở Tiến Xuân 2008</div>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
